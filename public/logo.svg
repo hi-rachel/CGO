@@ -1,0 +1,51 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle for C -->
+  <circle cx="20" cy="20" r="18" fill="url(#gradient1)" stroke="url(#gradient2)" stroke-width="2"/>
+  
+  <!-- Letter C -->
+  <path d="M12 20C12 15.5 15.5 12 20 12C24.5 12 28 15.5 28 20C28 24.5 24.5 28 20 28C15.5 28 12 24.5 12 20Z" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <path d="M28 20C28 15.5 24.5 12 20 12" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Background circle for G -->
+  <circle cx="50" cy="20" r="18" fill="url(#gradient3)" stroke="url(#gradient4)" stroke-width="2"/>
+  
+  <!-- Letter G -->
+  <path d="M42 20C42 15.5 45.5 12 50 12C54.5 12 58 15.5 58 20C58 24.5 54.5 28 50 28C45.5 28 42 24.5 42 20Z" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <path d="M58 20C58 15.5 54.5 12 50 12" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <path d="M50 20L58 20" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  <path d="M50 20L50 28" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Background circle for O -->
+  <circle cx="80" cy="20" r="18" fill="url(#gradient5)" stroke="url(#gradient6)" stroke-width="2"/>
+  
+  <!-- Letter O -->
+  <circle cx="80" cy="20" r="8" fill="none" stroke="white" stroke-width="2"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f43f5e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e11d48;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f43f5e;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#e11d48;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="gradient5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b7280;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4b5563;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b7280;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#4b5563;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+</svg>
