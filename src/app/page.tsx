@@ -270,8 +270,6 @@ export default function Home() {
     );
   }
 
-
-
   return (
     <div className="min-h-screen flex flex-col">
       {/* Header */}
@@ -380,14 +378,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="text-center space-y-3">
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              {getTranslation(language, "madeWith")} ❤️
+              {getTranslation(language, "madeWith")} 🩵
             </p>
-            <a
-              href="mailto:feedback@cgo.app"
-              className="text-sm text-blue-600 dark:text-blue-400 hover:underline transition-colors duration-200"
-            >
-              {getTranslation(language, "feedback")}
-            </a>
           </div>
         </div>
       </footer>
