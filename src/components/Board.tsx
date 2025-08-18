@@ -47,21 +47,18 @@ export default function Board({
           >
             <Column
               id="core"
-              title={getTranslation(language, "core")}
               items={buckets.core}
               onItemDelete={onItemDelete}
               language={language}
             />
             <Column
               id="growth"
-              title={getTranslation(language, "growth")}
               items={buckets.growth}
               onItemDelete={onItemDelete}
               language={language}
             />
             <Column
               id="optional"
-              title={getTranslation(language, "optional")}
               items={buckets.optional}
               onItemDelete={onItemDelete}
               language={language}
