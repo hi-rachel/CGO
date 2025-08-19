@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
@@ -8,12 +8,16 @@ export const metadata: Metadata = {
     "Organize your tasks into Core, Growth, and Optional categories with AI-powered prioritization",
   keywords: "productivity, task management, prioritization, AI, focus",
   authors: [{ name: "CGO Team" }],
-  viewport: "width=device-width, initial-scale=1",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
     apple: "/favicon.svg",
   },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
