@@ -85,7 +85,7 @@ export default function Home() {
 
   // 상태 저장
   useEffect(() => {
-    if (hasOrganized && isClient) {
+    if (isClient) {
       saveToStorage({
         buckets,
         dailyFocus,
