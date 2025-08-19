@@ -13,6 +13,27 @@ export const metadata: Metadata = {
     shortcut: "/favicon.svg",
     apple: "/favicon.svg",
   },
+  openGraph: {
+    title: "CGO - Core • Growth • Optional",
+    description:
+      "Organize your tasks into Core, Growth, and Optional categories with AI-powered prioritization",
+    images: [
+      {
+        url: "/cgo-og.png",
+        width: 1200,
+        height: 630,
+        alt: "CGO - Task Prioritization Tool",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CGO - Core • Growth • Optional",
+    description:
+      "Organize your tasks into Core, Growth, and Optional categories with AI-powered prioritization",
+    images: ["/cgo-og.png"],
+  },
 };
 
 export const viewport: Viewport = {
