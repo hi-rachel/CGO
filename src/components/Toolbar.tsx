@@ -24,7 +24,7 @@ export default function Toolbar({
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-4">
           <span className="text-sm text-gray-600 dark:text-gray-400">
-            {getTranslation(language, "keywordBased")}
+            {getTranslation(language, "aiDriven")}
           </span>
         </div>
         <div className="flex items-center space-x-3">
