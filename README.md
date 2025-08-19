@@ -1,5 +1,62 @@
 # CGO - Core • Growth • Optional
 
+**CGO** is a productivity web app that helps you organize your tasks into three simple and intuitive buckets.
+
+- **Core (Essential)** 🔴 – Things you must do now (deadlines, clients, appointments, etc.)
+- **Growth (Development)** 🟢 – Things that create long-term value (learning, improvement, health, etc.)
+- **Optional (Choice)** ⚪ – Experiments, hobbies, and ideas you can do when you have time
+
+This classification makes it clear what to focus on each day.
+
+## Key Features
+
+- **AI Auto-Classification**: Intelligent task classification using OpenAI GPT-4o-mini
+- **Daily Focus**: Automatic recommendation of top 3 Core tasks
+- **Drag & Drop**: Move and reorder items between columns
+- **Markdown Copy**: Copy classification results in markdown format
+- **Multi-language Support**: Korean/English support
+- **Dark/Light Mode**: Theme switching support
+- **Request Limit**: 5 AI analyses per day limit
+
+## Category Descriptions
+
+- **Core**: Must-do tasks that are most important right now
+- **Growth**: Investments for future growth and development
+- **Optional**: Experiments and hobbies for when you have time
+
+## Tech Stack
+
+- **Frontend**: Next.js 15, TypeScript, Tailwind CSS
+- **Drag & Drop**: @dnd-kit/core, @dnd-kit/sortable
+- **AI**: OpenAI GPT-4o-mini
+- **State Management**: localStorage (MVP)
+- **Deployment**: Vercel
+
+## Environment Variables
+
+To use AI classification features, set your OpenAI API key in the `.env.local` file:
+
+```
+OPENAI_API_KEY=your_openai_api_key_here
+```
+
+## Getting Started
+
+```bash
+# Install dependencies
+pnpm install
+
+# Run development server
+pnpm dev
+
+# Build for production
+pnpm build
+```
+
+---
+
+# CGO - Core • Growth • Optional
+
 **CGO**는 할 일을 세 가지 버킷으로 단순하고 직관적으로 정리해주는 생산성 웹앱입니다.
 
 - **Core (핵심)** 🔴 – 반드시 지금 해야 하는 일 (마감, 고객, 약속 등)
