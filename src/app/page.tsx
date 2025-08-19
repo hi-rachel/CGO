@@ -380,6 +380,23 @@ export default function Home() {
             <p className="text-sm text-gray-600 dark:text-gray-400">
               {getTranslation(language, "madeWith")} 🩵
             </p>
+            <div className="flex items-center justify-center space-x-4 text-sm">
+              <a
+                href="https://github.com/hi-rachel/CGO"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-200"
+              >
+                GitHub
+              </a>
+              <span className="text-gray-400 dark:text-gray-500">•</span>
+              <a
+                href="mailto:rachel.uiux@gmail.com"
+                className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-200"
+              >
+                Contact
+              </a>
+            </div>
           </div>
         </div>
       </footer>
