@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "CGO - Core • Growth • Optional",
@@ -34,6 +35,7 @@ export default function RootLayout({
           <div className="relative z-10">{children}</div>
         </div>
       </body>
+      <GoogleAnalytics gaId="G-5C8YKLN20R" />
     </html>
   );
 }
