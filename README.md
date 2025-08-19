@@ -18,12 +18,6 @@ This classification makes it clear what to focus on each day.
 - **Dark/Light Mode**: Theme switching support
 - **Request Limit**: 5 AI analyses per day limit
 
-## Category Descriptions
-
-- **Core**: Must-do tasks that are most important right now
-- **Growth**: Investments for future growth and development
-- **Optional**: Experiments and hobbies for when you have time
-
 ## Tech Stack
 
 - **Frontend**: Next.js 15, TypeScript, Tailwind CSS
@@ -74,12 +68,6 @@ pnpm build
 - **다국어 지원**: 한국어/영어 지원
 - **다크/라이트 모드**: 테마 전환 지원
 - **요청 제한**: 하루 5회 AI 분석 제한
-
-## 카테고리 설명
-
-- **Core**: 반드시 지금 해야 할 가장 중요한 일
-- **Growth**: 미래의 성장을 위해 투자하는 일
-- **Optional**: 여유 있을 때 해도 되는 실험·취미
 
 ## 기술 스택
 
